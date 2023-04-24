@@ -7,9 +7,11 @@ Rutgers Data Sciences Bootcamp, Module 9 Challenge (24 April 2023)
 This module challenge is divided into three parts: data modeling, data engineering, and data analysis.
 
 * Data Modeling (EmployeeSQL/Entity Relationship Diagram.png)
+
 Using https://www.quickdatabasediagrams.com, an Entity Relationship Diagram was created to sketch all the tables from our CSV files and establish each's table's relationship with one another.  
 
 * Data Engineering (EmployeeSQL/Table Schema.sql)
+
 Taking the knowledge from our ERD, the table schema was then created in PostgreSQL with the following in mind:
     - All required columns are defined for each table
     - Columns are set to the correct data type
@@ -20,6 +22,7 @@ Taking the knowledge from our ERD, the table schema was then created in PostgreS
     - Accurately defines value length for columns
 
 * Data Analysis (EmployeeSQL/Employee Data Query.sql)
+
 After loading table schema and all associated CSV files to each table, the following queries were performed:
     - List the employee number, last name, first name, sex, and salary of each employee
     - List the first name, last name, and hire date for the employees who were hired in 1986
